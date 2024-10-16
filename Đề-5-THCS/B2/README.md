@@ -31,6 +31,7 @@
 ```
 3
 ```
+### Mã nguồn mẫu:
 
 ```cpp
 #include <bits/stdc++.h>
