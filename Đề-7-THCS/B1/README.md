@@ -40,8 +40,8 @@ using namespace std;
 
 typedef long long ll;
 int main() {
-    freopen("SODEP.INP", "r", stdin);
-    freopen("SODEP.OUT", "w", stdout);
+    freopen("SODEP.inp", "r", stdin);
+    freopen("SODEP.out", "w", stdout);
     
     ll n;
     cin >> n;
