@@ -1,31 +1,31 @@
 **Bài 4. Tạoxâu**
 
-Cho mộtxâu ký tự `x` gồm các chữ cái in thường từ 'a' đến 'z'. Độ dàixâu `x` không quá 10610^6. Người ta mã hóaxâu `x` thànhxâuy như sau:
+Cho một xâu ký tự `x` gồm các chữ cái in thường từ `a` đến `z`. Độ dài xâu `x` không quá 10610^6. Người ta mã hóa xâu `x` thành xâu `y` như sau:
 
-- Ban đầuxâuy rỗng.
+- Ban đầu xâu y rỗng.
     
-- Đưa một ký tự từxâu `x` vào cuốixâuy và liên tục đảo ngượcy. Các ký tự của `x` lần lượt được đưa vàoxâuy theo cách này.
+- Đưa một ký tự từ xâu `x` vào cuối xâu `y` và liên tục đảo ngược `y`. Các ký tự của `x` lần lượt được đưa vào xâu `y` theo cách này.
     
 
-**Yêu cầu:** Hãy in raxâuy cuối cùng nhận được khi đã đưa hết ký tựxâu `x` vào.
+**Yêu cầu:** Hãy in ra xâu `y` cuối cùng nhận được khi đã đưa hết ký tự xâu `x` vào.
 
-**Dữ liệu:** Vào file `TAOXAU.inp` gồm một dòng duy nhất chứaxâu `x`.
+**Dữ liệu:** Vào file `TAOXAU.inp` gồm một dòng duy nhất chứa xâu `x`.
 
-**Kết quả:** Ghi ra file `TAOXAU.out`xâuy tìm được.
+**Kết quả:** Ghi ra file `TAOXAU.out` xâu `y` tìm được.
 
 **Ví dụ:**
 
-| TAOXAU.inp | TAOXAU.out | Giải thích                                                                                                                                                                               |
-| ---------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| abc        | cab        | Đưa lần lượt ký tự vàoxâuy như sau:<br> Bước 1: đưa 'a' và đảo ngượcy đượcy = "a"<br> Bước 2: đưa 'b' và đảo ngượcy đượcy = "ba"<br> Bước 3: đưa 'c' và đảo ngượcy đượcy = "cab" |
+| TAOXAU.inp | TAOXAU.out | Giải thích                                                                                                                                                                                             |
+| ---------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| abc        | cab        | Đưa lần lượt ký tự vào xâu `y` như sau:<br> Bước 1: đưa 'a' và đảo ngược `y` được `y` = "a"<br> Bước 2: đưa 'b' và đảo ngược `y` được `y` = "ba"<br> Bước 3: đưa 'c' và đảo ngược `y` được `y` = "cab" |
 
 **Ràng buộc:**
 
-- **Subtask 1:** Có 55% số test độ dàixâu `x` không quá 255
+- **Subtask 1:** Có 55% số test độ dài xâu `x` không quá 255
     
-- **Subtask 2:** Có 20% số test độ dàixâu `x` không quá 10410^4
+- **Subtask 2:** Có 20% số test độ dài xâu `x` không quá 10410^4
     
-- **Subtask 3:** Có 25% số test độ dàixâu `x` không quá 10610^6
+- **Subtask 3:** Có 25% số test độ dài xâu `x` không quá 10610^6
     
 
 ## Giải thích code
@@ -39,14 +39,14 @@ int main() {
     freopen("TAOXAU.inp", "r", stdin);
     freopen("TAOXAU.out", "w", stdout);
 
-    stringx;
-    cin >>x;
+    string x;
+    cin >> x;
 
-    // Sử dụng deque để quản lýxâuy
+    // Sử dụng deque để quản lý xâu y
     deque<char> y;
     bool rev = false;
 
-    // Lặp qua từng ký tự trongxâux
+    // Lặp qua từng ký tự trong xâu x
     for (char c : x) {
         if (rev) {
            y.push_front(c);
