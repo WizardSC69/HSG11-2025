@@ -10,6 +10,7 @@
   <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki/FAQ"><kbd> <br> FAQ <br> </kbd></a>&ensp;&ensp;
   <a href="#chú"><kbd> <br> Discord <br> </kbd></a>
 </div><br>
+
 ## Problems
 
 ### 👁️‍🗨️ Các đề cần được giải:
