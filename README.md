@@ -8,7 +8,7 @@
   <a href="https://github.com/JaKooLit/Hyprland-Dots/discussions"><kbd> <br> Discussions <br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki/Keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki/FAQ"><kbd> <br> FAQ <br> </kbd></a>&ensp;&ensp;
-  <a href="#attention"><kbd> <br> Discord <br> </kbd></a>
+  <a href="#attention"><kbd> <br> Chú ý <br> </kbd></a>
 </div><br>
 
 ## Problems
@@ -29,7 +29,7 @@
 
 ## [Test case!](https://github.com/baotrwg/HSG11-2025/tree/main/Unsolved/THPT/B%E1%BA%A1c-Li%C3%AAu-12-2023/Cases)
 
-## Attention 
+## Attention (Chú ý ⚠️):
 
 > [!CAUTION]
 > Tạo issue nếu có ý tưởng cần bàn 
