@@ -12,4 +12,4 @@ Phần giải thích có kèm theo đề
 **B3:**
 ![B3](./assets/3.png)
 
-## [Test case!](https://github.com/baotrwg/HSG11-2025/blob/main/%C4%90%E1%BB%81-7-THCS/B5/README.md)
+## [Test case!](https://github.com/baotrwg/HSG11-2025/tree/main/B%E1%BA%A1c-Li%C3%AAu-12-2023/Cases)
