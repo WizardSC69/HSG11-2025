@@ -1,4 +1,4 @@
-<h3 align="center"> <img align="center" width="80%" src="https://raw.githubusercontent.com/baotrwg/HSG11-2025/main/assets/terminal.png" alt="Terminal Image"/> </h3>
+<h3 align="center"> <img align="center" width="80%" src="https://github.com/user-attachments/assets/1f6cd1f5-9a0f-4019-ba8b-fb3594c2c9af" alt="HSG Tin"/> </h3>
 
 <div align="center">
 <br>
