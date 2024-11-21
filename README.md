@@ -4,10 +4,6 @@
 <br>
   <a href="#problems"><kbd> <br> Các đề chưa được giải <br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/baotrwg/HSG11-2025/tree/main/Solved"><kbd> <br> Các đề đã được giải <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/JaKooLit/Hyprland-Dots/discussions"><kbd> <br> Discussions <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki/Keybinds"><kbd> <br> Keybinds <br> </kbd></a>&ensp;&ensp;
-  <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki/FAQ"><kbd> <br> FAQ <br> </kbd></a>&ensp;&ensp;
   <a href="#attention"><kbd> <br> Chú ý <br> </kbd></a>
 </div><br>
 
