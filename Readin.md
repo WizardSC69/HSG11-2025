@@ -1,4 +1,4 @@
-<h3 align="center"> <img src="./assets/terminal.png" alt="Terminal Image" width="80%" /> </h3>
+<h3 align="center"> <img align="center" width="80%" src="https://raw.githubusercontent.com/baotrwg/HSG11-2025/main/assets/terminal.png" alt="Terminal Image"/> </h3>
 
 <div align="center">
 <br>
