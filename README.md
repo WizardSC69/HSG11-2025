@@ -31,10 +31,13 @@
 
 > [!CAUTION]
 > Tạo issue nếu có ý tưởng cần bàn 
+> 
 > Gửi mail tại: marino.kari24@gmail.com
+> 
 > Đây chỉ là trang chia sẻ kiến thức của các HS THPT (hoặc Sinh viên Đại Học).
 
 > [!IMPORTANT]
 > Không phải bài nào kết quả cũng tuyệt đối
+> 
 > Có thuật toán tối ưu hơn hoặc đề xuất xin hãy gửi trong issues
 
