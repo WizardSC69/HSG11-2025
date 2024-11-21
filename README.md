@@ -2,7 +2,7 @@
 
 <div align="center">
 <br>
-  <a href="#problems"><kbd> <br> Các đề <br> </kbd></a>&ensp;&ensp;
+  <a href="#problems"><kbd> <br> Các vấn đề <br> </kbd></a>&ensp;&ensp;
   <a href="https://www.youtube.com/playlist?list=PLDtGd5Fw5_GjXCznR0BzCJJDIQSZJRbxx"><kbd> <br> Youtube <br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/JaKooLit/Hyprland-Dots/wiki"><kbd> <br> Wiki <br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/JaKooLit/Hyprland-Dots/discussions"><kbd> <br> Discussions <br> </kbd></a>&ensp;&ensp;
@@ -13,7 +13,7 @@
 
 ## Problems
 
-### 👁️‍🗨️ Các đề cần được giải:
+### 👁️‍🗨️ Các đề chưa được giải:
 
 - [Bạc Liêu 12 2023](#Bạc-Liêu)
 
