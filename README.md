@@ -2,10 +2,21 @@
 
 <div align="center">
 <br>
+<a href="#theory"><kbd> <br> Lý thuyết <br> </kbd></a>&ensp;&ensp;
   <a href="#problems"><kbd> <br> Các đề chưa được giải <br> </kbd></a>&ensp;&ensp;
   <a href="https://github.com/baotrwg/HSG11-2025/tree/main/Solved"><kbd> <br> Các đề đã được giải <br> </kbd></a>&ensp;&ensp;
   <a href="#attention"><kbd> <br> Chú ý <br> </kbd></a>
 </div><br>
+## Theory:
+### 🪧 Lý thuyết: 🪧
+
+- [Đệ quy](#)
+
+## Đệ quy:
+
+### I. Khái niệm về chương trình con đệ quy: 
+
+
 
 ## Problems
 
