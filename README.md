@@ -69,7 +69,7 @@ Nếu n>0 thì n! = n*(n-1)!
 
 ### Cấu trúc chung:
 
-- **IF <Trường hợp suy biến>***
+- **IF <Trường hợp suy biến>**
 		**<Thực hiện công việc>**
 
 - **ELSE**
