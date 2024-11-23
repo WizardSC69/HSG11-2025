@@ -14,6 +14,8 @@
 
 - [Đệ quy](#Đệ-quy)
 
+- [Quay lui](#Quay-lui)
+
 ## Đệ-quy:
 
 ### I. Khái niệm về chương trình con đệ quy: 
@@ -82,6 +84,49 @@ Nếu n>0 thì n! = n*(n-1)!
 	- Bài toán dễ giải quyết trong một số trường hợp riêng ứng với các giá trị đặc biệt của tham số (**suy biến**).
 
 	- Trong trường hợp tổng quát bài toán quy về các bài toán cùng dạng nhưng giá trị tham số bị thay số thay đổi và sau số lần hữu hạn các biến đổi đệ quy sẽ dẫn tới trường hợp suy biến (**đệ quy**).
+
+## Quay-lui:
+
+### I. Phương pháp:
+
+Thuật toán quay lui xây dựng dần các thành phần của lời giải bằng cách thử mọi khả năng. Giả sử cần tìm lời giải với `n` thành phần `x₁, x₂,..., xₙ`. Nếu đã xác định được `i-1` thành phần (`x₁, x₂,..., xᵢ₋₁`), mục tiêu là xác định `xᵢ` bằng cách duyệt các khả năng.
+
+Với mỗi khả năng `j`, kiểm tra xem nó có chấp nhận được không:
+
+- **Nếu chấp nhận**, gán `xᵢ = j`. Nếu tìm thấy lời giải, ta có một cấu hình hoàn chỉnh. Nếu không, tiến hành xác định `xᵢ₊₁`.
+    
+- **Nếu không khả năng nào chấp nhận**, quay lui để xác định lại `xᵢ₋₁`.
+    
+
+Điểm quan trọng là ghi lại các khả năng đã thử để tránh trùng lặp, thường sử dụng cơ chế ngăn xếp (LIFO). Phương pháp này phù hợp với lập trình đệ quy.
+
+Dưới đây là thủ tục đệ quy để xác định `xᵢ`:
+
+```
+Procedure Tim(i:integer); // tim xi
+Var j:integer;
+Begin
+    <Xác định tập Si>
+    for j∈Si do
+        // if <chấp nhận j> then
+        begin
+            <xác định xi theo j> //x[i]=j
+            if <tìm thấy nghiệm> then <ghi nhận một cấu hình>
+            else Tim(i+1);
+            <loại thành phần i>
+        end;
+end;
+```
+
+Phần quan trọng nhất trong thủ tục này là lập danh sách các khả năng và xác định giá trị của `< chấp nhận j >`. Giá trị này phụ thuộc vào `j` và các khả năng đã chọn trước đó tại `i-1`. Cần lưu lại trạng thái mới sau khi `< xác định xᵢ theo j >` và phục hồi trạng thái cũ sau `Tim(i+1)`. Các trạng thái này được lưu bằng một biến tổng thể (global), gọi là biến trạng thái.
+
+Sau khi xây dựng thủ tục để qui Tim, đoạn chương trình chính giải bài toán liệt kê có dạng:
+
+```
+Begin Init; Tim(1); end;
+```
+
+Trong đó: Init là thủ tục khởi tạo các giá ban đầu (nhập các giá trị tham số của bài toán, khởi gán các biến trạng thái,...).
 
 ## Problems
 
